@@ -44,6 +44,8 @@ Replace the CLOCK part with a crystal as described in the SP0256-AL2 documentati
 
 Add RCA for audio out, in case you want the sound to an external amplifier/speaker.
 
+Disbale the amplifier when the SP0256 is inactive, to reduce output noise.
+
 ## version 1.0
 From Magazine over KiCad to PCB.
 
