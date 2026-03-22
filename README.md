@@ -49,7 +49,31 @@ From Magazine over KiCad to PCB.
 
 # BOM v1.0
 You will need the following components:
-- SP0256-AL2 (watch out for fakes!)
-- LM386
-- 74LS00
-- 74LS32
+
+
+|    Reference     | Qty |           Value           |
+|------------------|-----|---------------------------|
+| C1               |   1 | 820pF, ceramic            |
+| C2               |   1 | 220pF, ceramic            |
+| C3,C4,C9,C10,C15 |   5 | 100nF, MKT                |
+| C5,C7            |   2 | 4,7uF, tantalum           |
+| C6               |   1 | 470pF, ceramic            |
+| C8               |   1 | 10uF, electrolytic        |
+| C11,C12          |   2 | 100uF, electrolytic       |
+| C13,C14          |   2 | 100nF, ceramic            |
+| HT1              |   1 | Speaker0.5W/8R            |
+| IC3              |   1 | SP0256-AL2 (watch out for fakes)|
+| J1               |   1 | ZX_Spectrum_Connector_48K |
+| Q1               |   1 | BC548                     |
+| R1               |   1 | 4.7K                      |
+| R2,R10           |   2 | 100R                      |
+| R3               |   1 | 330R                      |
+| R4               |   1 | 100K                      |
+| R5               |   1 | 33K                       |
+| R6               |   1 | 1M                        |
+| R7               |   1 | 4,7K                      |
+| R8               |   1 | 10K, logarithmic          |
+| R9               |   1 | 10R                       |
+| U1               |   1 | 74LS00                    |
+| U2               |   1 | 74LS32                    |
+| U3               |   1 | LM386                     |
