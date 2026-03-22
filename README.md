@@ -23,6 +23,9 @@ This is the construction as published in the magazine in 1984.
 # Recreated construction
 The main goal was to get the schema redrawn in KiCad and a first try at a PCB, in order to build a version to check if everything works.
 
+## Setting up KiCad 9
+For this project you also need ZXInfo symbol and footprints from [here](https://github.com/zxinfo-diy-electronics/ZXINFO_LIBRARY). Follow the intructions to add the libraries to your KiCad setup.
+
 ## Programming the ZX-TALKMAN
 The interface is controled by outputting to port 31 (dec). On ZX Spectrum this can be done using the BASIC command out. On ZX81 you will need to write a short M/C program to send data to the interface. (May come later).
 
