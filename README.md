@@ -1,6 +1,8 @@
 # zx-talkman
 DIY Speech Interface for ZX Spectrum &amp; ZX81 published in Ny Elektronik 1984 issue 10 page 36. Recreated om KiCad as close as possible to original design.
 
+[Short demo](https://youtube.com/shorts/n-YjUCOgAG0?si=_cMUq0j-a8fil3s6) of ZX Spectrum saying 'Hello World' using the interface.
+
 # Original construction
 This is the construction as published in the magazine in 1984.
 
