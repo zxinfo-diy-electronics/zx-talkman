@@ -23,6 +23,18 @@ This is the construction as published in the magazine in 1984.
 # Recreated construction
 The main goal was to get the schema redrawn in KiCad and a first try at a PCB, in order to build a version to check if everything works.
 
+## Programming the ZX-TALKMAN
+The interface is controled by outputting to port 31 (dec). On ZX Spectrum this can be done using the BASIC command out. On ZX81 you will need to write a short M/C program to send data to the interface. (May come later).
+
+### Hello world on ZX Spectrum
+```BASIC
+10 READ data
+20 IF data > 63 THEN OUT 31,0: STOP
+30 OUT 31, data
+40 GO TO 10
+1000 DATA 27,51,45,53,46,52,45,21,0, 64
+```
+
 ## version 1.0
 From Magazine over KiCad to PCB.
 
