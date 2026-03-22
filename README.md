@@ -87,3 +87,8 @@ You will need the following components:
 | U1               |   1 | 74LS00                    |
 | U2               |   1 | 74LS32                    |
 | U3               |   1 | LM386                     |
+
+# Tools and useful links
+- SP0256-AL2 [Datasheet](https://www.bitsavers.org/components/gi/speech/General_Instrument_-_SP0256A-AL2_datasheet_(Radio_Shack_276-1784)_-_Apr1984.pdf)
+- Be aware [Genuine vs Counterfeit.](https://www.smbaker.com/counterfeitfakejustplainbad-sp0256a-al2-chips)
+- Online [text to speech](https://greg-kennedy.com/sp0256-tts/)
