@@ -48,6 +48,8 @@ Add RCA for audio out, in case you want the sound to an external amplifier/speak
 
 Disbale the amplifier when the SP0256 is inactive, to reduce output noise.
 
+Make output SBY & LRQ line readable from computer for better control.
+
 # version 1.0
 From Magazine over KiCad to PCB.
 
