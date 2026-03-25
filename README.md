@@ -40,6 +40,13 @@ The interface is controled by outputting to port 31 (dec). On ZX Spectrum this c
 1000 DATA 27,51,45,53,46,52,45,21,0, 64
 ```
 
+## Compatible commercial speech interfaces
+OUTPUT to any port with A4 low will activate the SP0256. This means that this interface is "compatible" with the following interfaces:
+- Cheetah Sweet Talker
+- Fuller Orator
+
+Some more details below.
+
 # Planned for v1.1
 Replace the CLOCK part with a crystal as described in the SP0256-AL2 documentation.
 <img width="640" alt="image" src="https://github.com/user-attachments/assets/f8b98803-b4c2-4090-88cb-49744c044e0b" />
@@ -51,6 +58,10 @@ Disbale the amplifier when the SP0256 is inactive, to reduce output noise.
 Make output SBY & LRQ line readable from computer for better control.
 
 # version 1.0
+
+## KNOWN issues with v1.0
+It seems like the 'reset' SP0256 does not always work as intented when the computer is powered up first time. Just turn it off and on again and it should be reset correctly.
+
 From Magazine over KiCad to PCB.
 
 | Schema | KiCad | PCB |
@@ -108,7 +119,7 @@ Another speech interface is the dk'tronics [speech synthesiser](https://spectrum
 Comes with a program to make it easy to use from BASIC, need to investigate it further - to see if it will work with this interface.
 
 ## Fuller 
-Fuller [Orator](https://spectrumcomputing.co.uk/entry/1000165/Hardware/Fuller_Orator)
+Fuller [Orator](https://spectrumcomputing.co.uk/entry/1000165/Hardware/Fuller_Orator) - yes, it runs the [demonstration](https://youtube.com/shorts/HEt_V7jbKws?si=R-SY6JT0dKBFEpfD) program as well. Best result if LINE 40 is changed by removing the "PAUSE" FOR/NEXT loop after the OUT command.
 
 ## Datel Vox Box
 
