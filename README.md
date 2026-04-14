@@ -111,6 +111,7 @@ Probaly the most popular speech interface for ZX Spectrum is the [Currah uSpeech
 ## Cheetah Sweet Talker
 The [Sweet Talker](https://spectrumcomputing.co.uk/entry/1000063/Hardware/Cheetah_Sweet_Talker) is a simple interface, almost like this DIY - in fact the demo program [Chatbox](https://spectrumcomputing.co.uk/entry/10467/ZX-Spectrum/Chatbox) - can be used with this interface right out of the box (mainly because of simple address decoding). You can see it demonstraded in this [video](https://youtube.com/shorts/8_oEiTdBw0U)
 - Output data to port 7
+- NEEDS SBY to WAIT connection
 
 ## dk'tronics speech synthesiser
 Another speech interface is the dk'tronics [speech synthesiser](https://spectrumcomputing.co.uk/entry/1000128/Hardware/DKTronics_Speech_Synthesiser). According to the manual, it's controlled by:
