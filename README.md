@@ -51,11 +51,9 @@ Some more details below.
 Replace the CLOCK part with a crystal as described in the SP0256-AL2 documentation.
 <img width="640" alt="image" src="https://github.com/user-attachments/assets/f8b98803-b4c2-4090-88cb-49744c044e0b" />
 
-Add RCA for audio out, in case you want the sound to an external amplifier/speaker.
-
-Disbale the amplifier when the SP0256 is inactive, to reduce output noise.
-
-Make output SBY & LRQ line readable from computer for better control.
+- Disbale the amplifier when the SP0256 is inactive, to reduce output noise.
+- Make output SBY & LRQ line readable from computer for better control and compability with other interfaces.
+- Jumper to enable/disable control of WAIT line
 
 # version 1.0
 
