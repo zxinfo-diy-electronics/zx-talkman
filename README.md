@@ -118,8 +118,18 @@ Another speech interface is the dk'tronics [speech synthesiser](https://spectrum
 - Read status from port 127 (data = 127 = READY)
 Comes with a program to make it easy to use from BASIC, need to investigate it further - to see if it will work with this interface.
 
-## Fuller 
-Fuller [Orator](https://spectrumcomputing.co.uk/entry/1000165/Hardware/Fuller_Orator) - yes, it runs the [demonstration](https://youtube.com/shorts/HEt_V7jbKws?si=R-SY6JT0dKBFEpfD) program as well. Best result if LINE 40 is changed by removing the "PAUSE" FOR/NEXT loop after the OUT command.
+## Fuller Orator
+Fuller [Orator](https://spectrumcomputing.co.uk/entry/1000165/Hardware/Fuller_Orator) - yes, it runs the [demonstration](https://youtube.com/shorts/HEt_V7jbKws?si=R-SY6JT0dKBFEpfD) program as well.
+- Output data to port 159
+- Works best if SBY to WAIT is removed
+
+### Games supporting Fuller Orator
+- [Jungle Fever](https://spectrumcomputing.co.uk/entry/2660/ZX-Spectrum/Jungle_Fever)
+- [Chuckie Egg](https://spectrumcomputing.co.uk/entry/958/ZX-Spectrum/Chuckie_Egg)
+- [Ziggurat](https://spectrumcomputing.co.uk/entry/5855/ZX-Spectrum/Ziggurat)
+- [Key Speaker](https://spectrumcomputing.co.uk/entry/13384/ZX-Spectrum/Key_Speaker) (A bit like Currah Speech, talks while you type)
+- [Spectrum Voice Chess](https://spectrumcomputing.co.uk/entry/5599/ZX-Spectrum/Spectrum_Voice_Chess) (Orator version)
+- [Dimension Destructor](https://spectrumcomputing.co.uk/entry/1394/ZX-Spectrum/Dimension_Destructors) (NOT confirmed to work)
 
 ## Datel Vox Box
 
