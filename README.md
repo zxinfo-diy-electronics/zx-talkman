@@ -128,7 +128,7 @@ Fuller [Orator](https://spectrumcomputing.co.uk/entry/1000165/Hardware/Fuller_Or
 - [Chuckie Egg](https://spectrumcomputing.co.uk/entry/958/ZX-Spectrum/Chuckie_Egg)
 - [Ziggurat](https://spectrumcomputing.co.uk/entry/5855/ZX-Spectrum/Ziggurat)
 - [Key Speaker](https://spectrumcomputing.co.uk/entry/13384/ZX-Spectrum/Key_Speaker) (A bit like Currah Speech, talks while you type)
-- [Spectrum Voice Chess](https://spectrumcomputing.co.uk/entry/5599/ZX-Spectrum/Spectrum_Voice_Chess) (Orator version)
+- [Spectrum Voice Chess](https://spectrumcomputing.co.uk/entry/5599/ZX-Spectrum/Spectrum_Voice_Chess) (Orator version, speaks to fast - needs to wait for chip ready?)
 - [Dimension Destructor](https://spectrumcomputing.co.uk/entry/1394/ZX-Spectrum/Dimension_Destructors) (NOT confirmed to work)
 
 ## Datel Vox Box
